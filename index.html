@@ -16,11 +16,11 @@
 </head>
 
 <body>
-  <h1 class="title">テキストコンバーター</h1>
-  <h2 class="subtitle">可能な限り半角化(カタカナは全角)</h2>
   <div id="app" class="columns">
     <div class="column is-10 is-offset-1">
-      <h3 class="title">入力</h3>
+      <h1 class="title">テキストコンバーター</h1>
+      <h2 class="subtitle">可能な限り半角化(カタカナは全角)</h2>
+      <h3 class="title mt-3">入力</h3>
       <textarea class="textarea mb-2" v-model="txt"></textarea>
       <h3 class="title">出力</h3>
       <textarea class="textarea mb-2" readonly>{{ convert }}</textarea>
